@@ -4,7 +4,8 @@
 
 ## Linux based OS
 
-* [Untitled](linux-based-os/untitled.md)
+* [Terminal & Commands](linux-based-os/untitled/README.md)
+  * [My Most Used Terminal Commands](linux-based-os/untitled/my-most-used-terminal-commands.md)
 
 ## MacOS
 
