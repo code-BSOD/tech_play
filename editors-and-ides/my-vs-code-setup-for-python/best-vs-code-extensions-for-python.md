@@ -12,3 +12,5 @@ This is perhaps one of my favorite extension to use in VS Code. This can be used
 
 ![Bracket Pair Colorizer 2 Extension](../../.gitbook/assets/screenshot-2020-05-09-at-8.36.21-pm.png)
 
+## 2. GitLens
+This is perhaps one of my favorite Git extensions for VS Code. I use it all the time. It not only shows me when I committed what but also who changed and when. Really awesome when doing collaboration. Also keeps tracks of tracked, untracked, modified files. Visually appealing as well. Search Extension tab in VS Code for "GitLens" and you should definitely find it.
