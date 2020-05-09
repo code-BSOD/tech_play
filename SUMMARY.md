@@ -12,5 +12,6 @@
 
 ## Editors & IDEs
 
-* [My VS Code Setup for Python](editors-and-ides/my-vs-code-setup-for-python.md)
+* [Visual Studio Code](editors-and-ides/my-vs-code-setup-for-python/README.md)
+  * [Best VS Code Extensions for Python](editors-and-ides/my-vs-code-setup-for-python/best-vs-code-extensions-for-python.md)
 
