@@ -119,4 +119,4 @@ description: A list of all my most used terminal commands. I've listed out only 
 
 # Manipulating I/O
 
-> Upcoming
+> Upcoming in the roadmap.
