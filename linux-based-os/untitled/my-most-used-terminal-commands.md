@@ -2,14 +2,12 @@
 description: A list of all my most used terminal commands. I've listed out only the few frequently used ones.
 ---
 
-# My Most Used Terminal Commands Cheat Sheet
-
-
 > By default, Ubuntu uses bash and Mac, although has bash, the recommended shell is now ZSH with iTerm2.
 
 > Ubuntu uses *~/.bashrc* for saving configuration.
-> On Mac with bash, need to create a ~/.bash-profile file
+> On Mac with bash, need to create a ~/.bash-profile file.
 > Mac with ZSH shell uses ~/.zshrc
+> Some CMD may NOT work with Mac. E.g <code>htop</code> won't work with ZSH on Mac.
 
 # Basics
 ## 1. ls
@@ -25,6 +23,10 @@ description: A list of all my most used terminal commands. I've listed out only 
 ## 3. sudo !!
 * <code>sudo !!</code> puts <code>sudo</code> before the previous command.
 * For example, if previous command was <code>apt-get update</code> and it returned error due to permission, <code>sudo !!</code> will fix it. Basically it's putting <code>sudo</code> before the previous executed command. Thus, it <code>sudo !!</code> = <code>sudo apt-get update</code>.
+
+> To close VIM/VI editor if opened accidentally.
+> Press ":" then type "qa" and press enter to exit.
+
 
 # File Related
 ## 4. cat
@@ -49,7 +51,7 @@ description: A list of all my most used terminal commands. I've listed out only 
 * <code>mkdir -p sql/codes</code> will create the folder *codes* inside folder *sql*. So tree will be <code>/Users/Documents/sql/codes</code> provided current dir is <code>/Users/Documents</code>
 * <code>rm any.txt</code> will remove the file *any.txt*
 
-* <code>rm -rf sql</code> will recursively delete everything inside *sql* folder and *sql* folder.
+* <code>rm -rf sql</code> will recursively delete everything inside *sql* folder and *sql* folder itself.
 
 # Move, Copy, Rename
 
@@ -75,7 +77,7 @@ description: A list of all my most used terminal commands. I've listed out only 
 ## 13. ps
 * Shows current running processes
 
-## 14. Alias
+## 14. alias
 * CMD alias can be set like: <code>alias slockon="xset led named 'Scroll Lock'"</code>.
 * Executing <code>slockon</code> next time will enable scroll lock on Ubuntu.
 
@@ -113,10 +115,37 @@ description: A list of all my most used terminal commands. I've listed out only 
 * <code>tar -xvf any.tar.gz /Users/mishkat/</code> will extract the file in folder mishkat.
 
 
-## 22.Zip
+## 22. Zip
 * <code>zip -r folder.zip folder</code> will zip the folder named folder recursively which will include all the files and folders in it's subfolder.
+* <code>unzip xyz.zip</code> will unzip the compressed file in the current directory.
 
 
 # Manipulating I/O
 
-> Upcoming in the roadmap.
+## 23. sed
+* Stands for Stream Editor.
+* **Substitution**: <code>$sed 's/unix/linux/' hello.txt</code> will substiture/replace the word *unix* with *linux* in the file hello.txt. Only replaces first occurences in each line.
+* To replace all occurences, need to add <code>/g</code> flag. E.g <code>$sed 's/unix/linux/g' hello.txt</code> will replace all unix words to linux.
+* Can use *RegEx* or *Regular Expession* as well.
+
+
+## 24. grep
+* The name <code>grep</code> comes from <code>g/re/p</code> (search **g**lobally for a **r**egular **e**xpression and **p**rint it)
+
+![grep command](../../img_assets/grep.png)
+
+## 25. echo, >, >>
+* <code>echo</code> is used to print something in the terminal.
+* To **concatenate** a text at the end of a file, we can use for e.g. <code>echo "Hello World" > any.txt</code>. This will replace all other text in the file and insert this line.
+* To **concatenate** a line at the end without removing previous text, we use **double** <code>>></code>. E.g. <code>echo "Hi there" >> any.txt</code>. Refer to the above picture on grep.
+
+
+## 26. ssh
+* <code>ssh -i /Users/mishkatnur.rahman/.ssh/vm-gpu ml-gpu-user@xx.xx.1x4.1xx</code>
+
+
+> Will add more about Docker and Kubernetes CMD in the future as I go along.
+
+
+*If you you'd like to know more, please refer to my source*:
+[101 Bash Commands and Tips for Beginners to Experts](https://dev.to/awwsmm/101-bash-commands-and-tips-for-beginners-to-experts-30je)
