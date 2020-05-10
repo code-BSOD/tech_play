@@ -1,151 +1,171 @@
 ---
-description: A list of all my most used terminal commands. I've listed out only the few frequently used ones.
+description: >-
+  A list of all my most used terminal commands. I've listed out only the few
+  frequently used ones.
 ---
 
+# My Most Used Terminal Commands
+
 > By default, Ubuntu uses bash and Mac, although has bash, the recommended shell is now ZSH with iTerm2.
+>
+> Ubuntu uses _~/.bashrc_ for saving configuration. On Mac with bash, need to create a ~/.bash-profile file. Mac with ZSH shell uses ~/.zshrc Some CMD may NOT work with Mac. E.g `htop` won't work with ZSH on Mac.
 
-> Ubuntu uses *~/.bashrc* for saving configuration.
-> On Mac with bash, need to create a ~/.bash-profile file.
-> Mac with ZSH shell uses ~/.zshrc
-> Some CMD may NOT work with Mac. E.g <code>htop</code> won't work with ZSH on Mac.
+## Basics
 
-# Basics
-## 1. ls
+### 1. ls
+
 * lists all files in a directory
-* <code>ls -a</code>: Lists all files including **hidden** ones.
-* <code>ls -al</code>: Shows detailed file info
+* `ls -a`: Lists all files including **hidden** ones.
+* `ls -al`: Shows detailed file info
 
-## 2. cd
-* <code>cd</code>: returns to *home* directory
-* <code>cd ..</code>: returns to previous directory
-* <code>cd ../..</code>: returns back or jumps multiple directory
+### 2. cd
 
-## 3. sudo !!
-* <code>sudo !!</code> puts <code>sudo</code> before the previous command.
-* For example, if previous command was <code>apt-get update</code> and it returned error due to permission, <code>sudo !!</code> will fix it. Basically it's putting <code>sudo</code> before the previous executed command. Thus, it <code>sudo !!</code> = <code>sudo apt-get update</code>.
+* `cd`: returns to _home_ directory
+* `cd ..`: returns to previous directory
+* `cd ../..`: returns back or jumps multiple directory
 
-> To close VIM/VI editor if opened accidentally.
-> Press ":" then type "qa" and press enter to exit.
+### 3. sudo !!
 
+* `sudo !!` puts `sudo` before the previous command.
+* For example, if previous command was `apt-get update` and it returned error due to permission, `sudo !!` will fix it. Basically it's putting `sudo` before the previous executed command. Thus, it `sudo !!` = `sudo apt-get update`.
 
-# File Related
-## 4. cat
-* <code>cat</code> basically prints out the content of a file. E.g <code>cat any.txt</code> will print out the text in the file *any.txt*.
+> To close VIM/VI editor if opened accidentally. Press ":" then type "qa" and press enter to exit.
 
-## 5. head, tail
-* Prints out the first few (<code>head</code>) or last few (<code>tail</code>) lines of a file.
+## File Related
+
+### 4. cat
+
+* `cat` basically prints out the content of a file. E.g `cat any.txt` will print out the text in the file _any.txt_.
+
+### 5. head, tail
+
+* Prints out the first few \(`head`\) or last few \(`tail`\) lines of a file.
 * Default value is 10
-* Can flag number of lines with <code>-n</code> flag
+* Can flag number of lines with `-n` flag
 
-## 6. nano
-* <code>nano any.txt</code>
+### 6. nano
+
+* `nano any.txt`
 * Kinda like defacto **CLI** text editor.
 * Available in both Ubuntu and Mac.
 
-## 7. touch
+### 7. touch
+
 * To quickly create any file in a directoy
-* <code>touch any.txt</code> will create a file called *any.txt* in the current directly.
+* `touch any.txt` will create a file called _any.txt_ in the current directly.
 
-## 8. mkdir, rm
-* <code>mkdir sql</code> will create a folder *sql*.
-* <code>mkdir -p sql/codes</code> will create the folder *codes* inside folder *sql*. So tree will be <code>/Users/Documents/sql/codes</code> provided current dir is <code>/Users/Documents</code>
-* <code>rm any.txt</code> will remove the file *any.txt*
+### 8. mkdir, rm
 
-* <code>rm -rf sql</code> will recursively delete everything inside *sql* folder and *sql* folder itself.
+* `mkdir sql` will create a folder _sql_.
+* `mkdir -p sql/codes` will create the folder _codes_ inside folder _sql_. So tree will be `/Users/Documents/sql/codes` provided current dir is `/Users/Documents`
+* `rm any.txt` will remove the file _any.txt_
+* `rm -rf sql` will recursively delete everything inside _sql_ folder and _sql_ folder itself.
 
-# Move, Copy, Rename
+## Move, Copy, Rename
 
-## 9. mv
+### 9. mv
+
 * Can move a file or rename a file
-* <code>mv any.txt /Users/mishkat/Documents/</code> will move *any.txt* file to *Documents* directory.
-* <code>mv any.txt mnr.txt</code> will rename *any.txt* to *mnr.txt*
+* `mv any.txt /Users/mishkat/Documents/` will move _any.txt_ file to _Documents_ directory.
+* `mv any.txt mnr.txt` will rename _any.txt_ to _mnr.txt_
 
-## 10. cp
+### 10. cp
+
 * Copies file
-* <code>cp any.txt /Users/mishkat/Documents</code> will copy *any.txt* file to Documents directory.
+* `cp any.txt /Users/mishkat/Documents` will copy _any.txt_ file to Documents directory.
 
-# Disk Usage & Processes
+## Disk Usage & Processes
 
-## 11. df
+### 11. df
+
 * Shows how much space left
-* <code>df -h</code> shows human readable info in *Gigabyte*.
+* `df -h` shows human readable info in _Gigabyte_.
 
-## 12. du
+### 12. du
+
 * Shows space usage in the current directory
-* <code>du -h</code> shows humnan readable space usage in megabyte.
+* `du -h` shows humnan readable space usage in megabyte.
 
-## 13. ps
+### 13. ps
+
 * Shows current running processes
 
-## 14. alias
-* CMD alias can be set like: <code>alias slockon="xset led named 'Scroll Lock'"</code>.
-* Executing <code>slockon</code> next time will enable scroll lock on Ubuntu.
+### 14. alias
 
-# Finding Stuff
+* CMD alias can be set like: `alias slockon="xset led named 'Scroll Lock'"`.
+* Executing `slockon` next time will enable scroll lock on Ubuntu.
 
-## 15. whereis
-* <code>whereis python</code> will show the location of the default Python installation like <code>/usr/bin/python</code>
+## Finding Stuff
+
+### 15. whereis
+
+* `whereis python` will show the location of the default Python installation like `/usr/bin/python`
 * Will show all the dir where Python is located in the system.
 
-## 16. which
-* <code>which python</code> will show which Python runtime the system is currently using.
+### 16. which
 
-## 17. locate
-* <code>locate README.md</code> will try to find where README.md file is in the system. Faster than <code>find</code> command as it depends on cache.
+* `which python` will show which Python runtime the system is currently using.
 
-# Internet!
+### 17. locate
 
-## 18. ping
-* <code>ping www.google.com</code> will ping Google.
+* `locate README.md` will try to find where README.md file is in the system. Faster than `find` command as it depends on cache.
 
-## 19. wget, curl
+## Internet!
+
+### 18. ping
+
+* `ping www.google.com` will ping Google.
+
+### 19. wget, curl
+
 * Both used to download files from internet.
-* <code>wget http://releases.ubuntu.com/18.10/ubuntu-18.10-desktop-amd64.iso</code> will download the Ubuntu 18.10 iso file
-* <code>curl http://releases.ubuntu.com/18.10/ubuntu-18.10-desktop-amd64.iso --output ubuntu.iso</code> can be used as well. **REMEMBER** the <code>--output</code> flag.
+* `wget` [`http://releases.ubuntu.com/18.10/ubuntu-18.10-desktop-amd64.iso`](http://releases.ubuntu.com/18.10/ubuntu-18.10-desktop-amd64.iso) will download the Ubuntu 18.10 iso file
+* `curl` [`http://releases.ubuntu.com/18.10/ubuntu-18.10-desktop-amd64.iso`](http://releases.ubuntu.com/18.10/ubuntu-18.10-desktop-amd64.iso) `--output ubuntu.iso` can be used as well. **REMEMBER** the `--output` flag.
 
+## Ubuntu System
 
-# Ubuntu System
-## 20. apt: Package Manager
-* Common CMD are <code>sudo apt-get update && sudo apt-get upgrade</code>
+### 20. apt: Package Manager
 
+* Common CMD are `sudo apt-get update && sudo apt-get upgrade`
 
-# Zip/Compressed file
-## 21. tar
-* <code>tar -xvf any.tar.gz</code> will extract the file in the current directory.
-* <code>tar -xvf any.tar.gz /Users/mishkat/</code> will extract the file in folder mishkat.
+## Zip/Compressed file
 
+### 21. tar
 
-## 22. Zip
-* <code>zip -r folder.zip folder</code> will zip the folder named folder recursively which will include all the files and folders in it's subfolder.
-* <code>unzip xyz.zip</code> will unzip the compressed file in the current directory.
+* `tar -xvf any.tar.gz` will extract the file in the current directory.
+* `tar -xvf any.tar.gz /Users/mishkat/` will extract the file in folder mishkat.
 
+### 22. Zip
 
-# Manipulating I/O
+* `zip -r folder.zip folder` will zip the folder named folder recursively which will include all the files and folders in it's subfolder.
+* `unzip xyz.zip` will unzip the compressed file in the current directory.
 
-## 23. sed
+## Manipulating I/O
+
+### 23. sed
+
 * Stands for Stream Editor.
-* **Substitution**: <code>$sed 's/unix/linux/' hello.txt</code> will substiture/replace the word *unix* with *linux* in the file hello.txt. Only replaces first occurences in each line.
-* To replace all occurences, need to add <code>/g</code> flag. E.g <code>$sed 's/unix/linux/g' hello.txt</code> will replace all unix words to linux.
-* Can use *RegEx* or *Regular Expession* as well.
+* **Substitution**: `$sed 's/unix/linux/' hello.txt` will substiture/replace the word _unix_ with _linux_ in the file hello.txt. Only replaces first occurences in each line.
+* To replace all occurences, need to add `/g` flag. E.g `$sed 's/unix/linux/g' hello.txt` will replace all unix words to linux.
+* Can use _RegEx_ or _Regular Expession_ as well.
 
+### 24. grep
 
-## 24. grep
-* The name <code>grep</code> comes from <code>g/re/p</code> (search **g**lobally for a **r**egular **e**xpression and **p**rint it)
+* The name `grep` comes from `g/re/p` \(search **g**lobally for a **r**egular **e**xpression and **p**rint it\)
 
-![grep command](../../img_assets/grep.png)
+![grep command](../../.gitbook/assets/grep.png)
 
-## 25. echo, >, >>
-* <code>echo</code> is used to print something in the terminal.
-* To **concatenate** a text at the end of a file, we can use for e.g. <code>echo "Hello World" > any.txt</code>. This will replace all other text in the file and insert this line.
-* To **concatenate** a line at the end without removing previous text, we use **double** <code>>></code>. E.g. <code>echo "Hi there" >> any.txt</code>. Refer to the above picture on grep.
+### 25. echo, &gt;, &gt;&gt;
 
+* `echo` is used to print something in the terminal.
+* To **concatenate** a text at the end of a file, we can use for e.g. `echo "Hello World" > any.txt`. This will replace all other text in the file and insert this line.
+* To **concatenate** a line at the end without removing previous text, we use **double** `>>`. E.g. `echo "Hi there" >> any.txt`. Refer to the above picture on grep.
 
-## 26. ssh
-* <code>ssh -i /Users/mishkatnur.rahman/.ssh/vm-gpu ml-gpu-user@xx.xx.1x4.1xx</code>
+### 26. ssh
 
+* `ssh -i /Users/mishkatnur.rahman/.ssh/vm-gpu ml-gpu-user@xx.xx.1x4.1xx`
 
 > Will add more about Docker and Kubernetes CMD in the future as I go along.
 
+_If you you'd like to know more, please refer to my source_: [101 Bash Commands and Tips for Beginners to Experts](https://dev.to/awwsmm/101-bash-commands-and-tips-for-beginners-to-experts-30je)
 
-*If you you'd like to know more, please refer to my source*:
-[101 Bash Commands and Tips for Beginners to Experts](https://dev.to/awwsmm/101-bash-commands-and-tips-for-beginners-to-experts-30je)

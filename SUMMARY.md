@@ -7,10 +7,6 @@
 * [Terminal & Commands](linux-based-os/untitled/README.md)
   * [My Most Used Terminal Commands](linux-based-os/untitled/my-most-used-terminal-commands.md)
 
-## MacOS
-
-* [Untitled](macos/untitled.md)
-
 ## Editors & IDEs
 
 * [Visual Studio Code](editors-and-ides/my-vs-code-setup-for-python/README.md)
