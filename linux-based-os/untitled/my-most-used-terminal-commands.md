@@ -39,7 +39,7 @@ description: >-
 
 ### 5. head, tail
 
-* Prints out the first few \(`head`\) or last few \(`tail`\) lines of a file.
+* Prints out the first few (`head`) or last few (`tail`) lines of a file.
 * Default value is 10
 * Can flag number of lines with `-n` flag
 
@@ -151,7 +151,7 @@ description: >-
 
 ### 24. grep
 
-* The name `grep` comes from `g/re/p` \(search **g**lobally for a **r**egular **e**xpression and **p**rint it\)
+* The name `grep` comes from `g/re/p` (search **g**lobally for a **r**egular **e**xpression and **p**rint it)
 
 ![grep command](../../.gitbook/assets/grep.png)
 
@@ -167,5 +167,5 @@ description: >-
 
 > Will add more about Docker and Kubernetes CMD in the future as I go along.
 
-_If you you'd like to know more, please refer to my source_: [101 Bash Commands and Tips for Beginners to Experts](https://dev.to/awwsmm/101-bash-commands-and-tips-for-beginners-to-experts-30je)
+*If you you'd like to know more, please refer to my source*: [101 Bash Commands and Tips for Beginners to Experts](https://dev.to/awwsmm/101-bash-commands-and-tips-for-beginners-to-experts-30je)
 
