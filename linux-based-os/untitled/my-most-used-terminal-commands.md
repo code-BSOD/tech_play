@@ -6,6 +6,8 @@ description: >-
 
 # My Most Used Terminal Commands
 
+![Windows Terminal Meme](../../FB_IMG_1589095791555.jpg)
+
 > By default, Ubuntu uses bash and Mac, although has bash, the recommended shell is now ZSH with iTerm2.
 >
 > Ubuntu uses _~/.bashrc_ for saving configuration. On Mac with bash, need to create a ~/.bash-profile file. Mac with ZSH shell uses ~/.zshrc Some CMD may NOT work with Mac. E.g `htop` won't work with ZSH on Mac.
