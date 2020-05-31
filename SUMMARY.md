@@ -14,6 +14,6 @@
 
 ## Google Cloud Platform \(GCP\)
 
-* [App Engine](app-engine/README.md)
-  * [Deploying Flask Web App for GA & GTM on Google App Engine](app-engine/testing-flask-app-for-ga-and-gtm-on-gae.md)
+* [App Engine](google-cloud-platform-gcp/app-engine/README.md)
+  * [Deploying Flask Web App for GA & GTM on Google App Engine](google-cloud-platform-gcp/app-engine/testing-flask-app-for-ga-and-gtm-on-gae.md)
 
