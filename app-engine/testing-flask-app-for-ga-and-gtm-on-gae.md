@@ -5,5 +5,5 @@ description: >-
   (GAE).
 ---
 
-# Deploying Flask Web App for GA & GTM on GAE
+# Deploying Flask Web App for GA & GTM on Google App Engine
 
