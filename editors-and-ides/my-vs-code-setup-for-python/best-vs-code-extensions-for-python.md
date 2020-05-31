@@ -44,7 +44,30 @@ Want to share beautiful screenshot of your code snippet to someone? Fear not. Po
 
 This is one of my most used extension of all time. The feature that I use most is **FIXME** and **TODO** which automatically highlights in the editor about what needs to be fixed in the code and what needs to be done later. You can also search by your _FIXME_ and _TODO_ tags to quickly find the things that needed to be done.
 
-![TODO Highligh](../../.gitbook/assets/todo.png)
+![TODO Highlight](../../.gitbook/assets/todo.png)
+
+## 7. Markdown Preview Enhanced
+Working with GitBook, this has become one of my favorite extension as it allows me to see the rendered Markdown file in real time. Very handy for writing `MD or Markdown` file for Github.
+
+![Markdown Preview Enhanced](../../Screenshot%202020-05-31%20at%204.15.25%20PM.png)
+
+
+## 8. Material Theme
+The extension name speaks for itself. This is one of the best theme extension pack for VS Code. I usually use *Material Theme Ocean* as I like Dark themes. Type `CMD+Shift+P` on Mac or `CTRL+SHIFT+P` on Windows and search for Color Theme.
+
+![Material Theme](../../Screenshot%202020-05-31%20at%204.48.02%20PM.png)
+
+## 9. Material Icon Theme
+
+To complement Material Theme, Material Icon Theme is a great addition. The icons are more catchy and vibrant than the default icons shipped with VS Code. You'll not be disappointed.
+
+![Material Icon Theme](../../Screenshot%202020-05-31%20at%204.48.25%20PM.png)
+
+## 10. Code Spell Checker
+
+Need a word like spell checker? Code Spell Checker is here to rescue. It will automatically highlight misspelled words.
+
+![Code Spell Checker](../../code%20spell.png)
 
 > I will update frequently when I find any new Extension
 
