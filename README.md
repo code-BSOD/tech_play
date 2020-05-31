@@ -14,17 +14,17 @@ I will also try to post links to the original articles/videos that I have used a
 
 ## Inspiration 💁 🙈
 
-One of my main inspiration to start writing actually came from [Rachel Thomas](https://medium.com/@racheltho), co-founder of FastAI and a professor. You can read more about her article on why you should start writing or doing blog here: [Why you (yes, you) should blog](https://medium.com/@racheltho/why-you-yes-you-should-blog-7d2544ac1045)
+One of my main inspiration to start writing actually came from [Rachel Thomas](https://medium.com/@racheltho), co-founder of FastAI and a professor. You can read more about her article on why you should start writing or doing blog here: [Why you \(yes, you\) should blog](https://medium.com/@racheltho/why-you-yes-you-should-blog-7d2544ac1045)
 
 ## _Topics I will write about_
 
 * Machine Learning
-* Deep Learning (Computer Vision, NLP)
-* OS (Ubuntu, Mac mainly)
+* Deep Learning \(Computer Vision, NLP\)
+* OS \(Ubuntu, Mac mainly\)
 * Cloud Computing
 * Data Science
 * SQL
-* Reviews (Editors, Products etc)
+* Reviews \(Editors, Products etc\)
 * Tips & Tricks
 * And more if I fancy 😂
 

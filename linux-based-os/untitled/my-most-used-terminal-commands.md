@@ -6,7 +6,7 @@ description: >-
 
 # My Most Used Terminal Commands
 
-![Windows Terminal Meme](../../FB_IMG_1589095791555.jpg)
+![Windows Terminal Meme](../../.gitbook/assets/FB_IMG_1589095791555.jpg)
 
 > By default, Ubuntu uses bash and Mac, although has bash, the recommended shell is now ZSH with iTerm2.
 >
@@ -41,7 +41,7 @@ description: >-
 
 ### 5. head, tail
 
-* Prints out the first few (`head`) or last few (`tail`) lines of a file.
+* Prints out the first few \(`head`\) or last few \(`tail`\) lines of a file.
 * Default value is 10
 * Can flag number of lines with `-n` flag
 
@@ -153,7 +153,7 @@ description: >-
 
 ### 24. grep
 
-* The name `grep` comes from `g/re/p` (search **g**lobally for a **r**egular **e**xpression and **p**rint it)
+* The name `grep` comes from `g/re/p` \(search **g**lobally for a **r**egular **e**xpression and **p**rint it\)
 
 ![grep command](../../.gitbook/assets/grep.png)
 
@@ -169,5 +169,5 @@ description: >-
 
 > Will add more about Docker and Kubernetes CMD in the future as I go along.
 
-*If you you'd like to know more, please refer to my source*: [101 Bash Commands and Tips for Beginners to Experts](https://dev.to/awwsmm/101-bash-commands-and-tips-for-beginners-to-experts-30je)
+_If you you'd like to know more, please refer to my source_: [101 Bash Commands and Tips for Beginners to Experts](https://dev.to/awwsmm/101-bash-commands-and-tips-for-beginners-to-experts-30je)
 
