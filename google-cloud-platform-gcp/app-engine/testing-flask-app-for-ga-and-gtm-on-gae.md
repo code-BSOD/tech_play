@@ -52,7 +52,9 @@ Let's just go to deployment.
 
 The Flask web app looks something like this.
 
- ![Flask App Structure](../../.gitbook/assets/git_image.png)
+ 
+
+![Flask App Structure](../../.gitbook/assets/git_image.png)
 
 **Step 2**:
 
