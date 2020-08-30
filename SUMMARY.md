@@ -20,5 +20,5 @@
 ## Machine Learning
 
 * [Preprocessing](machine-learning/preprocessing/README.md)
-  * [Handling Categorical Values for ML](machine-learning/preprocessing/handling-categorical-values-for-ml.md)
+  * [Preprocessing Categorical Values for Machine Learning using SQL & Python](machine-learning/preprocessing/handling-categorical-values-for-ml.md)
 

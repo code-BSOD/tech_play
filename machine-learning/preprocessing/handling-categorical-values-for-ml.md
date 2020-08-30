@@ -5,5 +5,5 @@ description: >-
   we can change the data according to our needs.
 ---
 
-# Handling Categorical Values for ML
+# Preprocessing Categorical Values for Machine Learning using SQL & Python
 
