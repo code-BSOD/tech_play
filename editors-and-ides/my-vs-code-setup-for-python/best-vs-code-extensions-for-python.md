@@ -71,15 +71,16 @@ Need a word like spell checker? Code Spell Checker is here to rescue. It will au
 ![Code Spell Checker](../../.gitbook/assets/code%20spell.png)
 
 ## 11. Jinja2 Snippet Kit
+
 Very handy if you use Jinja templates. I mainly use it with Flask based websites and sometimes for API creations. This provides some very handy shortcuts. A must for Flask framework users.
 
-![Jinja2 Snipped Kit](../../Screen%20Shot%202020-08-30%20at%2012.15.03%20PM.png)
-
+![Jinja2 Snipped Kit](../../.gitbook/assets/Screen%20Shot%202020-08-30%20at%2012.15.03%20PM.png)
 
 ## 12. Prettier - Code formatter
+
 I have started to use Prettier fairly recently after getting to know about this extension. But this is mainly used by web devs but I use it for formatting JSON strings and files. Very handy especially when you work with JSON or YAML files. And working with cloud, YAML is a must nowadays. Although seems like for AWS, they still heavily use JSON files instead of YAML. I really like the fact that in GCP, YAML is heavily used if I am not mistaken.
 
-![Prettier - Code formatter](../../Screen%20Shot%202020-08-30%20at%2012.15.26%20PM.png)
+![Prettier - Code formatter](../../.gitbook/assets/Screen%20Shot%202020-08-30%20at%2012.15.26%20PM.png)
 
 > I will update frequently when I find any new Extension
 

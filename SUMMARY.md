@@ -17,3 +17,8 @@
 * [App Engine](google-cloud-platform-gcp/app-engine/README.md)
   * [Deploying Flask Web App for GA & GTM on Google App Engine](google-cloud-platform-gcp/app-engine/testing-flask-app-for-ga-and-gtm-on-gae.md)
 
+## Machine Learning
+
+* [Preprocessing](machine-learning/preprocessing/README.md)
+  * [Handling Categorical Values for ML](machine-learning/preprocessing/handling-categorical-values-for-ml.md)
+
