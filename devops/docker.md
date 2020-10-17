@@ -66,6 +66,7 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 ```
 $ sudo docker container logs webhost
 ```
+
 ```
 /docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
 /docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
