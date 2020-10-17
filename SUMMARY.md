@@ -14,6 +14,9 @@
 
 ## Google Cloud Platform \(GCP\)
 
+* [ACE Exam Prep](google-cloud-platform-gcp/ace-exam-prep/README.md)
+  * [3. Intro to GCP](google-cloud-platform-gcp/ace-exam-prep/3.-intro-to-gcp.md)
+  * [4. Intro to GCP Products & Services](google-cloud-platform-gcp/ace-exam-prep/4.-intro-to-gcp-products-and-services.md)
 * [App Engine](google-cloud-platform-gcp/app-engine/README.md)
   * [Deploying Flask Web App for GA & GTM on Google App Engine](google-cloud-platform-gcp/app-engine/testing-flask-app-for-ga-and-gtm-on-gae.md)
 
