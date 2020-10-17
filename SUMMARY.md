@@ -27,5 +27,6 @@
 
 ## DevOps
 
-* [Docker](devops/docker.md)
+* [Docker](devops/docker/README.md)
+  * [Chapter 3](devops/docker/chapter-3.md)
 
