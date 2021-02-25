@@ -30,3 +30,10 @@
 * [Docker](devops/docker/README.md)
   * [Chapter 3](devops/docker/chapter-3.md)
 
+## Miscellaneous
+
+---
+
+* [Security](security/README.md)
+  * [Moving from LastPass to Bitwarden](security/moving-from-lastpass-to-bitwarden.md)
+
